@@ -77,3 +77,8 @@ def get_highest_entropy(img, min_ratio=4 / 5, max_ratio=90 / 47):
                         bounds=(0, xy_max),
                         method='bounded').x
     return PIL.Image.fromarray(_crop(x))
+
+
+if __name__ == '__main__':
+    post_photos()
+

@@ -19,3 +19,6 @@ def fetch_spacex_last_launch():
         path = 'spacex{}.jpg'.format(image_number+1)
         _fetch_picture(path, link)
 
+if __name__ == '__main__':
+    fetch_spacex_last_launch()
+

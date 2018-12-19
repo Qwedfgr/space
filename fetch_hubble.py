@@ -32,5 +32,11 @@ def get_file_extension(foto):
     link = foto['file_url']
     return link.split('.')[-1]
 
+if __name__ == '__main__':
+    fetch_hubble_collection()
+
+
+
+
 
 
