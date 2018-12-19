@@ -1,2 +1,5 @@
 instabot==0.4.5
 python-dotenv==0.10.0
+requests==2.20.1
+numpy==1.14.3
+scipy==1.1.0
